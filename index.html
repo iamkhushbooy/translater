@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="box">
+        <header>
+            <h1>TRANSLATE</h1>
+            <textarea name="" id="ta" cols="30" rows="10" placeholder="search"></textarea>
+            <!-- <input type="text" list="lang" onchange="EtoH(ta.value)">
+            <datalist id="lang">
+                <option value="EnglishToHindi" onclick="EtoH(ta.value)"></option>
+                <option value="HindiToEnglish" onclick="HtoE(ta.value)"></option>
+            </datalist> -->
+            <button onclick="EtoH(ta.value)">English To Hindi</button>
+            <button onclick="HtoE(ta.value)">Hindi To English</button>
+        </header>
+        <div id="res">
+            <p id="hinditext"></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
